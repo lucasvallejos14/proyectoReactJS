@@ -1,7 +1,8 @@
 
 import './App.css';
 import NavBar from './components/NavBar';
-import ListProducts from './components/ListProducts';
+import ItemListContainer from './components/ItemListContainer';
+
 function App() {
   return (
     <div className="App">
@@ -15,8 +16,8 @@ function App() {
       
       <main className='App__main'>
        <div>
-            <ListProducts/>
-            <button>MORE</button>
+            <ItemListContainer/>
+            
        </div> 
 
 

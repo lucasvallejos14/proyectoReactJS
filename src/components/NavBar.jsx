@@ -1,5 +1,5 @@
 import "../App.css"
-
+import CartWidget from "./CartWidget"
 const NavBar = () =>{
 
     
@@ -15,10 +15,8 @@ const NavBar = () =>{
                 <h1> Home </h1>
                 <h1> Products</h1>
             </div> 
-                
-            <div className="App__nav-cart">
-                <img src="./imagenes/carticono.png" alt="cart" className="cart"/>
-            </div>
+
+            <CartWidget/>
         </div>
     );
 };
