@@ -5,17 +5,26 @@ const ItemListContainer = () => {
   return (
     <div className='Products'>
       <div className='Products__vinos'>
+        <div className='Products_muestra'>
 
-        <img src="./imagenes/vino1.jpg" alt="vino blanco" className='Products_muestra' width={160} height={200}/>
+          <img src="./imagenes/vinoblanco.png" alt="vino blanco"  width={160} height={200}/>
 
-        <img src="./imagenes/vino2.jpg" alt="vino tinto" className='Products_muestra'width={160} height={200}/>
-      
-        <img src="./imagenes/vino3.jpeg" alt="vino espumante" className='Products_muestra'width={160} height={200}/>
+        </div>
+        <div className='Products_muestra'>
+
+          <img src="./imagenes/vinotintoo.png" alt="vino tinto" width={160} height={200}/>
+
+        </div>
+        <div className='Products_muestra'>
+
+          <img src="./imagenes/espumante.png" alt="vino espumante" width={160} height={200}/>
+
+        </div>
       
       </div>
         
         
-        <button className='App__main-boton' >MORE</button>
+        <button className='App__main-boton' >More Wines</button>
 
       
     </div>
